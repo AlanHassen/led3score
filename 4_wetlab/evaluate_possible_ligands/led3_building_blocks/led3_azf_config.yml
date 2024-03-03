@@ -1,0 +1,25 @@
+properties:
+  C: 1.4
+  cutoff_cumulative: 0.995
+  cutoff_number: 50
+  max_transforms: 9
+  default_prior: 0.5
+  use_prior: True
+  return_first: False  
+  iteration_limit: 1000
+  time_limit: 900
+  exclude_target_from_stock: True
+  template_column: retro_template
+  filter_cutoff: 0.05
+  prune_cycles_in_search: True
+  additive_expansion: False
+  search_algorithm: mcts
+  post_processing: {min_routes: 5, max_routes: 25, all_routes: True, route_distance_model: None}
+policy:
+  template-based:
+    uspto:
+      - <PATH>/led3_score/data/aizynthfinder/uspto_model.hdf5
+      - <PATH>/led3_score/data/aizynthfinder/uspto_templates.hdf5
+stock:
+  files:
+    led3: <PATH>/led3_score/data/building_blocks/led3_aizynthfinder_fragment_splitted.hdf5

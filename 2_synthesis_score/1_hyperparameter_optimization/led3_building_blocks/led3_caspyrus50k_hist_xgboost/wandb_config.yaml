@@ -1,0 +1,22 @@
+program: train.py
+method: bayes
+name: led3_caspyrus50k_hist_xgboost
+dataset_path: <PATH>/led3_score/data/results/2_synthesis_score/train_data/caspyrus50k/caspyrus_50k_train.csv
+project: led3_caspyrus50k_hist_xgboost
+entity: <user>
+metric:
+  name: f1
+  goal: maximize
+parameters:
+  max_depth:
+    min: 1
+    max: 50
+  min_split_loss:
+    min: 0.0
+    max: 10.0
+  n_estimators:
+    min: 5
+    max: 250
+  learning_rate:
+    min: 0.05
+    max: 0.4

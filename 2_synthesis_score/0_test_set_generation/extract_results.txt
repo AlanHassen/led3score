@@ -1,0 +1,23 @@
+Extracting results from <PATH>/led3_score/2_synthesis_score/0_test_set_generation/led3/chembl_200k_test_set/led_chembl200k_test_set_results.csv
+Extracting results from <PATH>/led3_score/2_synthesis_score/0_test_set_generation/zinc/chembl_200k_test_set/zinc_chembl200k_test_set_results.csv
+Careful, AZF doesnt produce the correct stereochemistry as output, so the smiles are not the same
+led3_diff: Int64Index([   306,    374,    439,    469,    539,    569,    573,    622,
+               625,    670,
+            ...
+            199672, 199686, 199695, 199728, 199776, 199802, 199940, 199957,
+            199973, 199987],
+           dtype='int64', length=5099)
+zinc_diff: Int64Index([   306,    374,    439,    469,    539,    569,    573,    622,
+               625,    670,
+            ...
+            199672, 199686, 199695, 199728, 199776, 199802, 199940, 199957,
+            199973, 199987],
+           dtype='int64', length=5099)
+led3 differences
+inchi_diff: Int64Index([11434, 54727, 109786], dtype='int64')
+zinc differences
+inchi_diff: Int64Index([11434, 54727, 109786], dtype='int64')
+Note: the differences are checked with 03_check_differences.py
+Create Labels
+Fingerprints are equal
+Saving results to <PATH>/led3_score/data/results/2_synthesis_score/test_data/test_chembl200k_random/test_chembl200k_results.csv

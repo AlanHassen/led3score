@@ -1,0 +1,10 @@
+{
+    "maximum_runtime_per_instance": 900,
+    "maximum_cpus_per_user": 432,
+    "number_of_molecules": 100000,
+    "number_of_instances": 10000,
+    "total_time": 90000000,
+    "run_time_per_instance": 9000.0,
+    "cpu_iterations": 23.14814814814815,
+    "maximum_number_of_days": 144.67592592592592
+}

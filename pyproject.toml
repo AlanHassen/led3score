@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "led3_score"
+version = "0.1.0"
+description = "Use your own building blocks to assess synthetic accessibility of molecules"
+authors = ["Alan Kai Hassen <a.k.hassen@liacs.leidenuniv.nl>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+seaborn = "^0.12.1"
+loguru = "^0.6.0"
+aizynthfinder = {git = "https://github.com/MolecularAI/aizynthfinder.git", rev = "v3.4.0"}
+wandb = "^0.13.6"
+xgboost = "^1.7.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
