@@ -37,3 +37,7 @@ If you use our work in your research, please cite:
 Will be updated...
 }
 ```
+
+## Funding
+
+This study was partially funded by the European Union’s Horizon 2020 research and innovation program under the Marie Skłodowska-Curie Innovative Training Network European Industrial Doctorate grant agreement No. 956832 “Advanced machine learning for Innovative Drug Discovery”
